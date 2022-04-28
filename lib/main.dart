@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '101/icon_learn.dart';
+import 'package:flutter_full_learn/101/stateless_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +17,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark().copyWith(
             appBarTheme:
                 const AppBarTheme(centerTitle: true, color: Colors.red)),
-        home: IconLearnView());
+        home: const StatelessLearn());
   }
 }
