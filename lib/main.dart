@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '101/list_tile_learn.dart';
+import 'package:flutter_full_learn/101/column_row_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +19,6 @@ class MyApp extends StatelessWidget {
                 const ProgressIndicatorThemeData(color: Colors.blue),
             appBarTheme:
                 const AppBarTheme(centerTitle: true, color: Colors.red)),
-        home: const ListTileLearn());
+        home: const ColumnRowLearn());
   }
 }
