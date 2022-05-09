@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/101/custom_widget_learn.dart';
+import 'package:flutter_full_learn/101/indicator_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +15,10 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData.dark().copyWith(
+            progressIndicatorTheme:
+                const ProgressIndicatorThemeData(color: Colors.blue),
             appBarTheme:
                 const AppBarTheme(centerTitle: true, color: Colors.red)),
-        home: CustomWidgetLearn());
+        home: const IndicatorLearn());
   }
 }
