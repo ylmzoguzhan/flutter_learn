@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '101/statefull_learn.dart';
+import '101/page_view_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
                 const ProgressIndicatorThemeData(color: Colors.blue),
             appBarTheme:
                 const AppBarTheme(centerTitle: true, color: Colors.blueGrey)),
-        home: const StatefullLearn());
+        home: const PageViewLearn());
   }
 }
