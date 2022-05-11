@@ -22,7 +22,7 @@ class IconLearnView extends StatelessWidget {
             onPressed: () {},
             icon: Icon(
               Icons.message_outlined,
-              color: iconColors.Mojo,
+              color: iconColors.mojoColor,
               size: iconSizes.iconMedium,
             ),
           ),
@@ -38,5 +38,5 @@ class IconSizes {
 }
 
 class IconColors {
-  final Color Mojo = const Color(0xffBF3E31);
+  final Color mojoColor = const Color(0xffBF3E31);
 }
