@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'demos/color_demos_view.dart';
+import 'demos/color_life_cycle_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
                 const ProgressIndicatorThemeData(color: Colors.blue),
             appBarTheme:
                 const AppBarTheme(centerTitle: true, color: Colors.blueGrey)),
-        home: ColorDemos());
+        home: ColorLifeCycleView());
   }
 }
