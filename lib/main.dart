@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '101/list_view_learn.dart';
+import 'demos/my_collections_demos.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark().copyWith(
             progressIndicatorTheme:
                 const ProgressIndicatorThemeData(color: Colors.blue),
-            appBarTheme:
-                const AppBarTheme(centerTitle: true, color: Colors.blueGrey)),
-        home: ListViewLearn());
+            appBarTheme: const AppBarTheme(
+                centerTitle: true, color: Colors.transparent)),
+        home: MyCollectionsDemos());
   }
 }
