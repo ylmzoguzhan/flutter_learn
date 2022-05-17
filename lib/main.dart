@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_full_learn/202/theme/light_theme.dart';
 import '202/package_learn.dart';
 
 void main() {
@@ -14,11 +15,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData.dark().copyWith(
-            progressIndicatorTheme:
-                const ProgressIndicatorThemeData(color: Colors.blue),
-            appBarTheme: const AppBarTheme(
-                centerTitle: true, color: Colors.transparent)),
+        theme: LightTema().theme,
+        //ThemeData.dark().copyWith(
+        //progressIndicatorTheme:
+        //const ProgressIndicatorThemeData(color: Colors.blue),
+        //appBarTheme: const AppBarTheme(
+        //centerTitle: true, color: Colors.transparent)),
         home: PackageLearn());
   }
 }
