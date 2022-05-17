@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '202/tab_learn.dart';
+import '202/service/service_post_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
                 const ProgressIndicatorThemeData(color: Colors.blue),
             appBarTheme: const AppBarTheme(
                 centerTitle: true, color: Colors.transparent)),
-        home: TabLearn());
+        home: ServicePostLearn());
   }
 }
