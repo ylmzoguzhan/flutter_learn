@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/202/theme/light_theme.dart';
-import '202/package_learn.dart';
+import '202/widget_size_enum_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,6 +21,6 @@ class MyApp extends StatelessWidget {
         //const ProgressIndicatorThemeData(color: Colors.blue),
         //appBarTheme: const AppBarTheme(
         //centerTitle: true, color: Colors.transparent)),
-        home: PackageLearn());
+        home: WidgetSizeEnumLearn());
   }
 }
