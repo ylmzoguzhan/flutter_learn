@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_full_learn/202/theme/light_theme.dart';
 
-import '303/part/part_of_learn.dart';
+import '303/call_back_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,6 +23,6 @@ class MyApp extends StatelessWidget {
         //const ProgressIndicatorThemeData(color: Colors.blue),
         //appBarTheme: const AppBarTheme(
         //centerTitle: true, color: Colors.transparent)),
-        home: PartOfLearn());
+        home: CallBackLearn());
   }
 }
