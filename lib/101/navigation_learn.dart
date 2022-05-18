@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/101/list_view_learn.dart';
 import 'package:flutter_full_learn/101/navigate_detail_learn.dart';
 
 class NavigationLearn extends StatefulWidget {
-  NavigationLearn({Key? key}) : super(key: key);
+  const NavigationLearn({Key? key}) : super(key: key);
 
   @override
   State<NavigationLearn> createState() => _NavigationLearnState();
