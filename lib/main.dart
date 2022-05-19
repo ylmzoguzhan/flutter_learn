@@ -5,6 +5,7 @@ import 'package:flutter_full_learn/product/global/resource_context.dart';
 import 'package:flutter_full_learn/product/global/theme_notifier.dart';
 import 'package:provider/provider.dart';
 
+import '303/lottie_learn.dart';
 import '303/reqrest_resource/view/reqres_view.dart';
 
 void main() {
@@ -33,6 +34,6 @@ class MyApp extends StatelessWidget {
         //const ProgressIndicatorThemeData(color: Colors.blue),
         //appBarTheme: const AppBarTheme(
         //centerTitle: true, color: Colors.transparent)),
-        home: ReqresView());
+        home: LottieLearn());
   }
 }
